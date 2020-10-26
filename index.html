@@ -94,7 +94,7 @@
             allComments() {
                 return this.comments.map(comment => ({
                     ...comment,
-                    name: comment.name.trim() === '' ? 'Anonymous' : comment.name
+                    name: comment.name.trim() === '' ? 'Anônimo' : comment.name
                 }))
             }
         },
